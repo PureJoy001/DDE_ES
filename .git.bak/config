@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = http://10.112.195.25:8077/buptxy/DDE_ES
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[user]
+	name = jyz
+	email = 1483959612@qq.com
+[branch "jyz"]
+	remote = origin
+	merge = refs/heads/jyz
