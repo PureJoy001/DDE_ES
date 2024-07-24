@@ -309,7 +309,7 @@ def concat_sql_str(update_data):
 # 删除也能做硬性删除
 def sync_data(db_config, count_cached):
     client = Client()
-    client.connect(host='10.112.195.25')
+    client.connect(host='127.0.0.1')
     client.check_valid()
     client.subscribe()
 
