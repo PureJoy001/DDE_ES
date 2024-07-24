@@ -1,0 +1,92 @@
+{
+  "test": {
+    "db": {
+      "mysql": {
+        "host": "rm-3nsr23xv4d369e1lslo.mysql.rds.aliyuncs.com",
+        "user": "root",
+        "password": "F9ZouuyWpP%b8B1r",
+        "db": "ddeplatform"
+      },
+      "es": {
+        "index": "mydde",
+        "host": "http://localhost:9200"
+      }
+    },
+    "update_interval": 5,
+    "boost": 3
+  },
+  "omnisky": {
+    "db": {
+      "mysql": {
+        "host": "10.112.195.25",
+        "user": "root",
+        "password": "123",
+        "db": "dde_portal"
+      },
+      "es": {
+        "index": "mydde",
+        "host": "http://localhost:9200"
+      }
+    },
+    "update_interval": 5,
+    "boost": 3
+  },
+  "hk": {
+    "db": {
+      "mysql": {
+        "host": "rm-3ns6w6rj1pp0aop04bo.mysql.rds.aliyuncs.com",
+        "user": "root_read",
+        "password": "cpz!o^ZU$3emYT0E",
+        "db": "dde_portal"
+      },
+      "es": {
+        "index": "mydde",
+        "host": "http://localhost:9200"
+      }
+    },
+    "update_interval": 5,
+    "boost": 3
+  },
+  "fra": {
+    "db": {
+      "mysql": {
+        "host": "rm-4xo7899ko4yk7gmeabo.mysql.germany.rds.aliyuncs.com",
+        "user": "readonly",
+        "password": "U2MzU2MDE2OTE",
+        "db": "dde_portal"
+      },
+      "es": {
+        "index": "mydde",
+        "host": "http://localhost:9200"
+      }
+    },
+    "update_interval": 5,
+    "boost": 3
+  },
+  "gin": {
+    "db": {
+      "ssh_tunnel": {
+        "port": 22,
+        "host": "3.234.216.88",
+        "username": "centos",
+        "pem_file_path": "config/dto-aws-prod-link-key.pem",
+        "remote_bind_address": {
+          "host": "dde-portal-us-prod.cbywnsug7q9w.us-east-1.rds.amazonaws.com",
+          "port": 3306
+        }
+      },
+      "mysql": {
+        "host": "127.0.0.1",
+        "user": "admin",
+        "password": "F9ZouuyWpP%b8B1r",
+        "db": "dde_portal"
+      },
+      "es": {
+        "index": "mydde",
+        "host": "http://localhost:9200"
+      }
+    },
+    "update_interval": 5,
+    "boost": 3
+  }
+}

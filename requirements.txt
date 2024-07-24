@@ -1,0 +1,11 @@
+fastapi~=0.104.1
+apscheduler~=3.10.4
+pydantic~=2.5.1
+pymysql~=1.1.0
+elasticsearch~=8.11.0
+geopandas~=0.14.1
+shapely~=1.8.2
+tqdm~=4.66.1
+paramiko~=3.3.1
+canal_python
+requests
